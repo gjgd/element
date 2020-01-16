@@ -11,16 +11,17 @@
     "didv": "https://w3id.org/did#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 
+    "type": "sec:type",
+    "controller": "sec:controller",
+    "serviceEndpoint": "sec:serviceEndpoint",
     "publicKeyBase58": "sec:publicKeyBase58",
     "publicKeyHex": "sec:publicKeyHex",
     "publicKeyPem": "sec:publicKeyPem",
+    "usage": "sec:usage",
     "service": {
-      "@id": "sec:service",
-      "@container": "@set"
+      "@id": "sec:service"
     },
-    "assertionMethod": {
-      "@id": "sec:assertionMethod"
-    },
+    "assertionMethod": "sec:assertionMethod",
     "authentication": {
       "@id": "sec:authentication",
       "@container": "@set"
