@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "id": "@id",
+    "type": "@type",
+    "el": "https://docs.element-did.com/contexts/sidetree/sidetree-v1.1#",
+    "greetingCard": "vcgc:greetingCard",
+  }
+}
