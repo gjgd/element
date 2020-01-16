@@ -19,8 +19,8 @@
       "@container": "@set"
     },
     "assertionMethod": {
-      "@id": "sec:assertionMethod",
-     },
+      "@id": "sec:assertionMethod"
+    },
     "authentication": {
       "@id": "sec:authentication",
       "@container": "@set"
