@@ -43,6 +43,6 @@
       "publicKeyHex": "sec:publicKeyHex",
       "publicKeyPem": "sec:publicKeyPem",
       "@container": "@set"
-    },
+    }
   }
 }
