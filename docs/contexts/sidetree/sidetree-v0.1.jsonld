@@ -31,6 +31,9 @@
     "capabilityDelegation": {"@id": "sec:capabilityDelegation", "@type": "@id", "@container": "@set"},
     "capabilityInvocation": {"@id": "sec:capabilityInvocation", "@type": "@id", "@container": "@set"},
     "keyAgreement": {"@id": "sec:keyAgreement", "@type": "@id", "@container": "@set"},
+    "controller": "sec:controller",
+    "publicKeyBase58": "sec:publicKeyBase58",
+    "publicKeyHex": "sec:publicKeyHex",
 
     "authentication": "sec:authenticationMethod",
     "authenticationCredential": "sec:authenticationCredential",
