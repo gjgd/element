@@ -11,6 +11,10 @@
     "didv": "https://w3id.org/did#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
 
+    "controller": "sec:controller",
+    "publicKeyBase58": "sec:publicKeyBase58",
+    "publicKeyHex": "sec:publicKeyHex",
+    "publicKeyPem": "sec:publicKeyPem",
     "service": {
       "@id": "sec:service",
       "@container": "@set"
@@ -38,10 +42,6 @@
     "proof": "sec:proof",
     "publicKey": {
       "@id": "sec:publicKey",
-      "controller": "sec:controller",
-      "publicKeyBase58": "sec:publicKeyBase58",
-      "publicKeyHex": "sec:publicKeyHex",
-      "publicKeyPem": "sec:publicKeyPem",
       "@container": "@set"
     }
   }
