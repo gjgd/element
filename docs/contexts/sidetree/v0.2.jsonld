@@ -1,47 +1,14 @@
 {
-  "@context": {
-    "@version": 1.1,
-    "id": "@id",
-    "type": "@type",
+  "@context": [
+    "https://w3id.org/security/v2",
+    {
+      "service": "sec:service",
 
-    "dc": "http://purl.org/dc/terms/",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "schema": "http://schema.org/",
-    "sec": "https://w3id.org/security#",
-    "didv": "https://w3id.org/did#",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-
-    "type": "sec:type",
-    "controller": "sec:controller",
-    "serviceEndpoint": "sec:serviceEndpoint",
-    "publicKeyBase58": "sec:publicKeyBase58",
-    "publicKeyHex": "sec:publicKeyHex",
-    "publicKeyPem": "sec:publicKeyPem",
-    "usage": "sec:usage",
-    "service": {
-      "@id": "sec:service"
-    },
-    "assertionMethod": "sec:assertionMethod",
-    "authentication": {
-      "@id": "sec:authentication",
-      "@container": "@set"
-    },
-    "capabilityDelegation": {
-      "@id": "sec:capabilityDelegation",
-      "@container": "@set"
-    },
-    "capabilityInvocation": {
-      "@id": "sec:capabilityInvocation",
-      "@container": "@set"
-    },
-    "keyAgreement": {
-      "@id": "sec:keyAgreement",
-      "@container": "@set"
-    },
-    "proof": "sec:proof",
-    "publicKey": {
-      "@id": "sec:publicKey",
-      "@container": "@set"
+      "type": "sec:type",
+      "controller": "sec:controller",
+      "serviceEndpoint": "sec:serviceEndpoint",
+      "publicKeyHex": "sec:publicKeyHex",
+      "usage": "sec:usage"
     }
-  }
+  ]
 }
