@@ -25,6 +25,13 @@
     "RsaSignature2017": "sec:RsaSignature2017",
     "UpdateDidDescription": "didv:UpdateDidDescription",
 
+    "service": {"@id": "sec:service", "@type": "@id", "@container": "@set"},
+    "assertionMethod": {"@id": "sec:assertionMethod", "@type": "@id", "@container": "@set"},
+    "authentication": {"@id": "sec:authentication", "@type": "@id", "@container": "@set"},
+    "capabilityDelegation": {"@id": "sec:capabilityDelegation", "@type": "@id", "@container": "@set"},
+    "capabilityInvocation": {"@id": "sec:capabilityInvocation", "@type": "@id", "@container": "@set"},
+    "keyAgreement": {"@id": "sec:keyAgreement", "@type": "@id", "@container": "@set"},
+
     "authentication": "sec:authenticationMethod",
     "authenticationCredential": "sec:authenticationCredential",
     "authorizationCapability": "sec:authorizationCapability",
